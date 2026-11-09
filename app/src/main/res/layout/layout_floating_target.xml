@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="44dp"
+    android:layout_height="44dp"
+    android:background="@android:color/transparent">
+
+    <!-- دایره آبی استاندارد اتوکلیکر با حاشیه سفید (دقیقاً مشابه نرم‌افزار اصلی Auto Clicker) -->
+    <View
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_target_circle" />
+
+    <!-- شماره ۱ بولد و واضح در مرکز دایره آبی -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black" />
+</FrameLayout>
